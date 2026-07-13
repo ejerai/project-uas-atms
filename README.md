@@ -1,37 +1,37 @@
-# Bansos Insight - Dashboard Analisis & Klasterisasi Sentimen 🔍🔥
+# Bansos Insight - Dashboard Analisis & Klasterisasi Sentimen
 
 Bansos Insight adalah sebuah proyek analisis sentimen, klasterisasi, dan visualisasi data terkait topik Bantuan Sosial (Bansos) di media sosial. Proyek ini dibangun sebagai bagian dari **Projek UAS (Tema 1: Bansos)** dan mengintegrasikan Machine Learning serta Natural Language Processing (NLP) untuk menggali *insight* dari opini publik.
 
 ![Dashboard Preview](Screenshot%20(322).png)
 
-## 📌 Deskripsi Proyek
+## Deskripsi Proyek
 Proyek ini mengumpulkan data teks dari media sosial (Twitter/X) mengenai topik bantuan sosial (Bansos), kemudian melakukan pemrosesan teks, klasifikasi sentimen menggunakan kamus bahasa Indonesia (InSet Lexicon), pemodelan klasterisasi (K-Means & TF-IDF), dan akhirnya disajikan ke dalam **Dashboard Interaktif berbasis Streamlit** dengan desain UI yang modern.
 
-### 👥 Pembagian Tugas (UAS)
+### Pembagian Tugas (UAS)
 - **Mahasiswa A**: Crawling Data + Text Preprocessing + Klasifikasi/Sentiment Analysis.
 - **Mahasiswa B**: Klasterisasi K-Means + Deteksi Trending Topic.
 - **Mahasiswa C**: Social Network Analysis (SNA) + Pembuatan Dashboard Panel (Streamlit).
 
-## 🚀 Fitur Utama
+## Fitur Utama
 1. **Analisis Sentimen (Lexicon-based)**: Mengklasifikasikan opini masyarakat menjadi sentimen Positif, Negatif, atau Netral menggunakan InSet Lexicon.
 2. **Klasterisasi Topik (K-Means & TF-IDF)**: Mengelompokkan tweet ke dalam berbagai klaster pembicaraan (misalnya: Keluhan Publik, Kebijakan Bansos, dll) menggunakan teknik K-Means Clustering yang direduksi dimensinya menggunakan TruncatedSVD.
 3. **Deteksi Trending & Keyword**: Menggali kata kunci utama yang sering dibicarakan dalam topik Bansos.
 4. **Dashboard Streamlit Interaktif**: Antarmuka responsif dengan desain dark-theme, visualisasi grafik interaktif (Plotly), indikator KPI, dan filter dinamis.
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Bahasa Pemrograman**: Python 3
 - **Data Processing & ML**: Pandas, NumPy, Scikit-Learn (TF-IDF, SVD, KMeans)
 - **NLP / Sentiment Analysis**: InSet Lexicon (Indonesian Sentiment Lexicon)
 - **Visualisasi & Dashboard**: Streamlit, Plotly (Graph Objects & Express)
 
-## 📂 Struktur File
+## Struktur File
 - `app.py`: Source code utama untuk menjalankan Dashboard Streamlit.
 - `PROJEK_UAS_Bansos_RunAll_AutoStreamlit_CLUSTER3.ipynb`: Jupyter Notebook yang berisi seluruh *pipeline* data science, mulai dari crawling, preprocessing, sentiment, klasterisasi, hingga analisis.
 - `bansos.csv`: Dataset mentah/raw hasil crawling dari Twitter/X.
 - `InSet_pos.tsv` & `InSet_neg.tsv`: Kamus kata berbobot sentimen positif dan negatif untuk Bahasa Indonesia.
 - `Screenshot (322).png`: Dokumentasi tampilan antarmuka (UI) dashboard.
 
-## 💻 Cara Instalasi & Menjalankan Dashboard
+## Cara Instalasi & Menjalankan Dashboard
 
 1. **Clone Repository** (atau unduh semua file ke dalam satu folder):
    ```bash
