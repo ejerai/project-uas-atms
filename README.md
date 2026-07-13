@@ -2,7 +2,8 @@
 
 Bansos Insight adalah sebuah proyek analisis sentimen, klasterisasi, dan visualisasi data terkait topik Bantuan Sosial (Bansos) di media sosial. Proyek ini dibangun sebagai bagian dari **Projek UAS (Tema 1: Bansos)** dan mengintegrasikan Machine Learning serta Natural Language Processing (NLP) untuk menggali *insight* dari opini publik.
 
-[Dashboard Preview](Screenshot%20(322).png)
+<img width="1920" height="911" alt="Screenshot (322)" src="https://github.com/user-attachments/assets/62e23210-37e4-4bb0-9151-953ba4879e7a" />
+
 
 ## Deskripsi Proyek
 Proyek ini mengumpulkan data teks dari media sosial (Twitter/X) mengenai topik bantuan sosial (Bansos), kemudian melakukan pemrosesan teks, klasifikasi sentimen menggunakan kamus bahasa Indonesia (InSet Lexicon), pemodelan klasterisasi (K-Means & TF-IDF), dan akhirnya disajikan ke dalam **Dashboard Interaktif berbasis Streamlit** dengan desain UI yang modern.
