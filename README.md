@@ -8,11 +8,6 @@ Bansos Insight adalah sebuah proyek analisis sentimen, klasterisasi, dan visuali
 ## Deskripsi Proyek
 Proyek ini mengumpulkan data teks dari media sosial (Twitter/X) mengenai topik bantuan sosial (Bansos), kemudian melakukan pemrosesan teks, klasifikasi sentimen menggunakan kamus bahasa Indonesia (InSet Lexicon), pemodelan klasterisasi (K-Means & TF-IDF), dan akhirnya disajikan ke dalam **Dashboard Interaktif berbasis Streamlit** dengan desain UI yang modern.
 
-### Pembagian Tugas (UAS)
-- **Mahasiswa A**: Crawling Data + Text Preprocessing + Klasifikasi/Sentiment Analysis.
-- **Mahasiswa B**: Klasterisasi K-Means + Deteksi Trending Topic.
-- **Mahasiswa C**: Social Network Analysis (SNA) + Pembuatan Dashboard Panel (Streamlit).
-
 ## Fitur Utama
 1. **Analisis Sentimen (Lexicon-based)**: Mengklasifikasikan opini masyarakat menjadi sentimen Positif, Negatif, atau Netral menggunakan InSet Lexicon.
 2. **Klasterisasi Topik (K-Means & TF-IDF)**: Mengelompokkan tweet ke dalam berbagai klaster pembicaraan (misalnya: Keluhan Publik, Kebijakan Bansos, dll) menggunakan teknik K-Means Clustering yang direduksi dimensinya menggunakan TruncatedSVD.
