@@ -1,6 +1,6 @@
 # Bansos Insight - Dashboard Analisis & Klasterisasi Sentimen
 
-Bansos Insight adalah sebuah proyek analisis sentimen, klasterisasi, dan visualisasi data terkait topik Bantuan Sosial (Bansos) di media sosial. Proyek ini dibangun sebagai bagian dari **Projek UAS (Tema 1: Bansos)** dan mengintegrasikan Machine Learning serta Natural Language Processing (NLP) untuk menggali *insight* dari opini publik.
+Bansos Insight adalah sebuah proyek analisis sentimen, klasterisasi, dan visualisasi data terkait topik Bantuan Sosial (Bansos) di media sosial. Machine Learning serta Natural Language Processing (NLP) untuk menggali *insight* dari opini publik.
 
 <img width="1920" height="911" alt="Screenshot (322)" src="https://github.com/user-attachments/assets/62e23210-37e4-4bb0-9151-953ba4879e7a" />
 
@@ -21,13 +21,12 @@ Proyek ini mengumpulkan data teks dari media sosial (Twitter/X) mengenai topik b
 - **Visualisasi & Dashboard**: Streamlit, Plotly (Graph Objects & Express)
 
 ## Struktur File
-- `app.py`: Source code utama untuk menjalankan Dashboard Streamlit.
+- `app.py`: Source code utama untuk menjalankan Dashboard Streamlit dengan redesign dashboard custom UI.
 - `PROJEK_UAS_Bansos_RunAll_AutoStreamlit_CLUSTER3.ipynb`: Jupyter Notebook yang berisi seluruh *pipeline* data science, mulai dari crawling, preprocessing, sentiment, klasterisasi, hingga analisis.
 - `bansos.csv`: Dataset mentah/raw hasil crawling dari Twitter/X.
 - `InSet_pos.tsv` & `InSet_neg.tsv`: Kamus kata berbobot sentimen positif dan negatif untuk Bahasa Indonesia.
-- `Screenshot (322).png`: Dokumentasi tampilan antarmuka (UI) dashboard.
 
-## Cara Instalasi & Menjalankan Dashboard
+## Instalasi & Menjalankan Dashboard
 
 1. **Clone Repository** (atau unduh semua file ke dalam satu folder):
    ```bash
@@ -49,6 +48,3 @@ Proyek ini mengumpulkan data teks dari media sosial (Twitter/X) mengenai topik b
 
 4. **Akses Dashboard**:
    Buka browser Anda dan akses URL lokal yang diberikan oleh Streamlit (biasanya `http://localhost:8501`).
-
----
-*Dibuat untuk keperluan pemenuhan Tugas Akhir Semester (UAS) Analisis Data / Data Science.*
